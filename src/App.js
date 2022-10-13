@@ -12,22 +12,24 @@ class App extends React.Component {
     return (
        <Router>
            <div className="App">
-            <div className="Container">
-              <div id="IndexLink">
-                <Link to="/">Home</Link>
+              <div className="content">
+                <ul>
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
               </div>
-              <div id="ContactLink">
-                <Link to="/about">Contact</Link>
-              </div>
-              <div id="AboutLink">
-                <Link to="/contact">About</Link>
-              </div>
-            </div>
-            <Routes>
-                  <Route exact path='/' element={< Index />}></Route>
-                  <Route exact path='/about' element={< About />}></Route>
-                  <Route exact path='/contact' element={< Contact />}></Route>
-            </Routes>
+              <Routes>
+                    <Route exact path='/' element={< Index />}></Route>
+                    <Route exact path='/about' element={< About />}></Route>
+                    <Route exact path='/contact' element={< Contact />}></Route>
+              </Routes>
           </div>
        </Router>
    );

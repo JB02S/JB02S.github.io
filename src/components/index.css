@@ -1,3 +1,24 @@
+* {
+    text-align: center;
+}
+
+ul li a {
+    font-size: 14px;
+    padding: 6px;
+    text-decoration: underline;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    color: rgba(141, 140, 140, 0.94);
+    transition: 0.3s;
+}
+
+a :visited {
+    color: #ffffff;
+}
+
 #IndexPara {
     margin:0 auto;
     padding-top:20px;
@@ -5,4 +26,51 @@
     padding-right:15px;
     padding-bottom: 20px;
     width: 700px;
+}
+
+.content {
+    text-align: center;
+    list-style: none;
+    margin-top: 15%;
+    left: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.content ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.content ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.content ul li a:hover {
+    color: rgba(141, 140, 140, 0.94);
+    transition: 0.3s;
+}
+
+.content a {
+    text-decoration: none;
+    color: #a39e9e;
+}
+
+.content a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }

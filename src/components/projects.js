@@ -13,7 +13,9 @@ function Projects() {
                 on my github <a id="githublink" href="https://github.com">here</a>. <br/> <br/> <br/> 
                 <Link to="/projects/tradingbots">FTX Trading bots</Link> <br/> <br/>
                 <Link to="/projects/onlyProfits">Cryptocurrency and stock market viewer</Link> <br/> <br/>
-                <Link to="/projects/eportfolio">Eportfolio</Link>
+                <Link to="/projects/eportfolio">Eportfolio</Link> <br/> <br/>
+                <Link to="/projects/racecar">Race Car</Link> <br/> <br/>
+                <Link to="/projects/matrixcalculator">Matrix Calculator</Link> <br/> <br/>
             </p>
         </div>
     </>

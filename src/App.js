@@ -9,6 +9,8 @@ import Projects from './components/projects';
 import FTXTradingBotsDesc from './components/ftxtradingbotsdesc';
 import OnlyProfitsDesc from './components/onlyprofitsdesc';
 import EportfolioDesc from './components/eportfoliodesc';
+import MatrixCalculatorDesc from './components/matrixcalculatordesc';
+import RaceCarDesc from './components/racecardesc';
 
 
 class App extends React.Component {
@@ -40,6 +42,8 @@ class App extends React.Component {
                     <Route exact path='/projects/tradingbots' element={< FTXTradingBotsDesc />}></Route>
                     <Route exact path='/projects/onlyprofits' element={< OnlyProfitsDesc />}></Route>
                     <Route exact path='/projects/eportfolio' element={< EportfolioDesc />}></Route>
+                    <Route exact path='/projects/racecar' element={< RaceCarDesc />}></Route>
+                    <Route exact path='/projects/matrixcalculator' element={< MatrixCalculatorDesc />}></Route>
               </Routes>
           </div>
        </Router>

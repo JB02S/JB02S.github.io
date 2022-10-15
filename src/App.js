@@ -5,12 +5,14 @@ import Navbar from './components/navbar';
 import Index from './components'
 import About from './components/about';
 import Contact from './components/contact'
+import ControlledCarousel from './components/carousel';
 
 
 class App extends React.Component {
   render() {
     return (
        <Router>
+          <ControlledCarousel />
            <div className="App">
               <div className="content">
                 <ul>
@@ -25,11 +27,6 @@ class App extends React.Component {
                     </li>
                 </ul>
               </div>
-              <Routes>
-                    <Route exact path='/' element={< Index />}></Route>
-                    <Route exact path='/about' element={< About />}></Route>
-                    <Route exact path='/contact' element={< Contact />}></Route>
-              </Routes>
           </div>
        </Router>
    );

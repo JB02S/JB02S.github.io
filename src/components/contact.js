@@ -2,7 +2,17 @@ import React from 'react';
 
 function Contact() {
     return (
-        <h1>contact</h1>
+        <>
+        <h2>
+            Contact me
+        </h2>
+        <div id="ContactPara">
+            <p>
+                If you'd like to contact me about anything you can send me an email at
+                james.a.browne442@gmail.com
+            </p>
+        </div>
+    </>
     )
 }
 

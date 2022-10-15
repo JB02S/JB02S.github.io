@@ -5,6 +5,10 @@ import Navbar from './components/navbar';
 import Index from './components'
 import About from './components/about';
 import Contact from './components/contact'
+import Projects from './components/projects';
+import FTXTradingBotsDesc from './components/ftxtradingbotsdesc';
+import OnlyProfitsDesc from './components/onlyprofitsdesc';
+import EportfolioDesc from './components/eportfoliodesc';
 
 
 class App extends React.Component {
@@ -23,12 +27,19 @@ class App extends React.Component {
                     <li>
                       <Link to="/contact">Contact</Link>
                     </li>
+                    <li>
+                      <Link to="/projects">Projects</Link>
+                    </li>
                 </ul>
               </div>
               <Routes>
                     <Route exact path='/' element={< Index />}></Route>
                     <Route exact path='/about' element={< About />}></Route>
                     <Route exact path='/contact' element={< Contact />}></Route>
+                    <Route exact path='/projects' element={< Projects />}></Route>
+                    <Route exact path='/projects/tradingbots' element={< FTXTradingBotsDesc />}></Route>
+                    <Route exact path='/projects/onlyprofits' element={< OnlyProfitsDesc />}></Route>
+                    <Route exact path='/projects/eportfolio' element={< EportfolioDesc />}></Route>
               </Routes>
           </div>
        </Router>

@@ -4,10 +4,10 @@ import './index.css'
 function Index() {
     return (
         <>
-            <h2>
-                Hi I'm James
-            </h2>
             <div id="IndexPara">
+                <h2>
+                    Hi I'm James
+                </h2>
                 <p>
                     I'm a third year computer science student, here you can find out about any projects I've worked on or am currently working on.
                     I am mainly interested in trading and botting, however I have also recently taken an interest in data science.

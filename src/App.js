@@ -2,7 +2,6 @@ import './App.css'
 import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import React from 'react';
 import Index from './components'
-import About from './components/about';
 import Contact from './components/contact'
 import Projects from './components/projects';
 import FTXTradingBotsDesc from './components/ftxtradingbotsdesc';
@@ -23,9 +22,6 @@ class App extends React.Component {
                       <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="/about">About</Link>
-                    </li>
-                    <li>
                       <Link to="/contact">Contact</Link>
                     </li>
                     <li>
@@ -35,7 +31,6 @@ class App extends React.Component {
               </div>
               <Routes>
                     <Route exact path='/' element={< Index />}></Route>
-                    <Route exact path='/about' element={< About />}></Route>
                     <Route exact path='/contact' element={< Contact />}></Route>
                     <Route exact path='/projects' element={< Projects />}></Route>
                     <Route exact path='/projects/tradingbots' element={< FTXTradingBotsDesc />}></Route>

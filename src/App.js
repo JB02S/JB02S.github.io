@@ -1,14 +1,14 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import React from 'react';
-import Index from './components'
-import Contact from './components/contact'
-import Projects from './components/projects';
-import FTXTradingBotsDesc from './components/ftxtradingbotsdesc';
-import OnlyProfitsDesc from './components/onlyprofitsdesc';
-import EportfolioDesc from './components/eportfoliodesc';
-import MatrixCalculatorDesc from './components/matrixcalculatordesc';
-import RaceCarDesc from './components/racecardesc';
+import Index from './components/Home/index'
+import Contact from './components/Contact/contact'
+import Projects from './components/Projects/projects';
+import FTXTradingBotsDesc from './components/Trading_bots/ftxtradingbotsdesc';
+import OnlyProfitsDesc from './components/OnlyProfits/onlyprofitsdesc';
+import EportfolioDesc from './components/Eportfolio/eportfoliodesc';
+import MatrixCalculatorDesc from './components/Matrix_calculator/matrixcalculatordesc';
+import RaceCarDesc from './components/Racecar/racecardesc';
 
 
 class App extends React.Component {

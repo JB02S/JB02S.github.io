@@ -1,5 +1,5 @@
 import React from 'react';
-import botdiagram from '../assets/images/botdiagram.png';
+import botdiagram from '../../assets/images/botdiagram.png';
 import './ftxtradingbotdesc.css';
 
 function FTXTradingBotsDesc() {

@@ -31,7 +31,7 @@ function FTXTradingBotsDesc() {
                         Bot inherits from Bots and Observer.
                     </li>
                     <li>
-                        for bots which use built-in indicators, the bot creates the indicator object with any specific settings declared in the
+                        For bots which use built-in indicators, the bot creates the indicator object with any specific settings declared in the
                         constructor, it then adds itself as an observer to this object and receives information whenever the indicator changes,
                         e.g a bot may create a 50 period SMA and be updated everytime the SMA changes.
                     </li>
